@@ -441,10 +441,6 @@ button {
 .tel.link:focus {
   color: var(--accent-color);
 }
-.page-footer {
-  /* display: flex;
-  align-items: baseline; */
-}
 
 .footer-general {
   display: flex;
@@ -479,7 +475,6 @@ button {
   fill: currentColor;
 }
 .join-title {
-  display: inline-block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
