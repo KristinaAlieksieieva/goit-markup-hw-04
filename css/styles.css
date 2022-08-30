@@ -133,6 +133,8 @@ button {
 }
 .contact-mail {
   margin-right: 30px;
+  display: flex;
+  align-items: center;
   color: var(--secondary-text-color);
 }
 .contact-mail .contact-phone-number {
@@ -170,6 +172,8 @@ button {
 
 .hero {
   max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 200px 0;
   text-align: center;
   background-color: #c4c4c4;
@@ -389,9 +393,6 @@ button {
   color: var(--accent-color);
 }
 
-.footer-logo {
-  display: block;
-}
 .logo-footer {
   color: var(--primary-background-color);
 }
@@ -475,6 +476,7 @@ button {
   fill: currentColor;
 }
 .join-title {
+  display: block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -507,7 +509,14 @@ button {
 .img-prf {
   border: none;
 }
-
+.portfolio-link {
+  display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -518,11 +527,7 @@ button {
   flex-basis: calc((100% - 60px) / 3);
   background-color: var(--primary-background-color);
 }
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .flt-btn:hover,
 .flt-btn:focus {
   background-color: var(--accent-color);
